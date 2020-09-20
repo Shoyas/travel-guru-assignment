@@ -1,0 +1,32 @@
+.person-detail{
+    width: 400px;
+    height: 40px;
+    background-color: rgba(16, 16, 17, 0.3);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+
+}
+.login-body{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+    font-weight: 500;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+    font-weight: 500;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+    font-weight: 500;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: white;
+    font-weight: 500;
+}

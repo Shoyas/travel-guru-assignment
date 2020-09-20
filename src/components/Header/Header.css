@@ -43,12 +43,11 @@
     
     
 }
-.nav-item:hover{
-    background-color: #FFC107;
-    text-decoration: none;
-}
 
 .body-color{
     background-color: rgba(16, 16, 17, 0.6);
     color: white;
+}
+.button{
+    color: white !important;
 }

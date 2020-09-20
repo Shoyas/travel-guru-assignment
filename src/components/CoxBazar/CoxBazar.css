@@ -6,7 +6,8 @@
     margin-bottom: 200px;
     border-radius: 26px;
     height: 300px;
-    width: 200px; 
+    width: 200px;
+    cursor: pointer; 
 }
 .photo1 h3{
     text-align: center;

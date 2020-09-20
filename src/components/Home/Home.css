@@ -10,3 +10,8 @@
 .tour-part3{
     display: flex;
 }
+.home-body-color{
+    padding-top: 100px;
+    background-color: rgba(16, 16, 17, 0.6);
+    color: white;
+}

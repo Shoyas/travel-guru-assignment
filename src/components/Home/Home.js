@@ -34,7 +34,7 @@ const Home = () => {
         }
     }
     return (
-        <div className="body-color">
+        <div className="home-body-color">
             
                 <Row>
                     <Col sm={5}>

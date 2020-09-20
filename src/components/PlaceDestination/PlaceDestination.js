@@ -12,7 +12,7 @@ const PlaceDestination = (props) => {
         <div className="description-area">
             <h4>{name}</h4>
             <p>{description}</p>
-            <Button variant="warning">Warning</Button>
+            <Button className="booking-button" variant="warning">Booking →</Button>
         </div>
     );
 };
