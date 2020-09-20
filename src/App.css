@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.body{
+  background-image: url(./Rectangle1.png);
+  /* width: 1325px;
+  height: 1200px;
+  background-repeat: no-repeat;
+  object-fit: cover; */
+
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+
+  background-size: cover;
+  background-attachment: fixed;
+  
+  
+}
+.body-color{
+  background-color: rgba(16, 16, 17, 0.6);
+  color: white;
+}
+

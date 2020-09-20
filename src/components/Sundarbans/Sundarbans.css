@@ -1,0 +1,18 @@
+.photo3{
+    background-image: url(./pic3.png);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    border-radius: 26px;
+    height: 300px;
+    width: 200px; 
+}
+.photo3 h3{
+    text-align: center;
+    margin-top: 226px;
+}
+.photo3:hover{
+    border: 2px solid rgb(249, 165, 26);
+    box-shadow: 0px 0px 10px #FFC107;
+}
