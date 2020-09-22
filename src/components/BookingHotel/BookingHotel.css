@@ -1,0 +1,15 @@
+.hotel-area{
+    background-color: rgba(16, 16, 17, 0.6);
+    color: white;
+    padding-top: 100px;
+    display: flex;
+}
+.image-area img{
+    width: 200px;
+    height: 180px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.detail-area{
+    margin-right: 20px;
+}

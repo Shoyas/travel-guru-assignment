@@ -10,7 +10,7 @@ const Header = () => {
             <div className="container">
             <Navbar bg="" variant="light" className="content">
                 <Link to="/home" className="logo">
-                    <img src={logo} alt=""/>
+                    <img src={logo} alt="Home"/>
                 </Link>
                 <Form inline>
                     <input type="text"  placeholder="Search your destination" className="search-bar"/>

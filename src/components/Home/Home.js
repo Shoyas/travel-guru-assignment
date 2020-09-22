@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import CoxBazar from '../CoxBazar/CoxBazar';
 import Srimangal from '../Srimangal/Srimangal';
@@ -18,19 +18,19 @@ const Home = () => {
 
     const handlePlaceDestination = e =>{
         if(e === "CoxBazar"){
-            const coxInfo = place[0];
-            setPlaceDetail(coxInfo);
-            return coxInfo;
+            const info = place[0];
+            setPlaceDetail(info);
+            return info;
         }
         if(e === "Srimangal"){
-            const coxInfo = place[1];
-            setPlaceDetail(coxInfo);
-            return coxInfo;
+            const info = place[1];
+            setPlaceDetail(info);
+            return info;
         }
         if(e === "Sundarbans"){
-            const coxInfo = place[2];
-            setPlaceDetail(coxInfo);
-            return coxInfo;
+            const info = place[2];
+            setPlaceDetail(info);
+            return info;
         }
     }
     return (

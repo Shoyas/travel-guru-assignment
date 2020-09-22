@@ -1,0 +1,57 @@
+.booking-body-color{
+    background-color: rgba(16, 16, 17, 0.6);
+    color: white;
+    padding-top: 100px;
+}
+.form-body{
+    margin-left: 200px;
+}
+.detail-body{
+    margin-left: 20px;
+    padding-bottom: 300px;
+    
+}
+.schedule-input img{
+    width: 22px;
+    height: 35px;
+    padding-bottom: 10px;
+}
+.schedule-headline{
+    margin-left: 170px;
+}
+
+.next-schedule-input-form{
+    margin-left: 8px;
+}
+.booking-form{
+    width: 400px;
+    height: 40px;
+}
+
+.schedule-input-form{
+    width: 173px;
+    height: 40px;
+}
+.booking-form, .schedule-input-form{
+    background-color: rgba(16, 16, 17, 0.3);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.form-body{
+    padding-bottom: 150px;
+}
+.submit-button{
+    margin-top: 10px;
+    color: white;
+    width: 400px;
+    
+}
+.submit-button:hover{
+}
+#button-area{
+    text-decoration: none;
+}

@@ -9,6 +9,16 @@
     margin-bottom: 5px;
 
 }
+.submit-detail{
+    width: 400px;
+    height: 40px;
+    background-color: #FFC107;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
 .login-body{
     padding-top: 100px;
     text-align: center;

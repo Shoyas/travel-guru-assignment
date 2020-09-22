@@ -14,6 +14,9 @@ import Destination from './components/Header/NavItems/Destination/Destination';
 import Blog from './components/Header/NavItems/Blog/Blog';
 import Contact from './components/Header/NavItems/Contact/Contact';
 import Login from './components/Header/NavItems/Login/Login';
+import Booking from './components/Booking/Booking';
+import NotFound from './components/NotFound/NotFound';
+import Hotel from './components/Hotel/Hotel';
 
 
 export const TourContext = createContext();
@@ -25,14 +28,13 @@ function App() {
       
         <TourContext.Provider value={{place, setPlace}}>
           <Router>
-            <Header></Header>
+            <Header/>
             <Switch>
-              <Route exact path="/">
-                
-                <Home></Home>
+              <Route exact path="/"> 
+                <Home/>
               </Route>
               <Route path="/home">
-                <Home></Home>
+                <Home/>
               </Route>
               <Route path="/news">
                 <News/>
@@ -48,6 +50,15 @@ function App() {
               </Route>
               <Route path="/login">
                 <Login/>
+              </Route>
+              <Route path="/booking/:name && :description">
+                <Booking/>
+              </Route>
+              <Route path="/hotel">
+                <Hotel/>
+              </Route>
+              <Route path="*">
+                <NotFound/>
               </Route>
               
             </Switch>
