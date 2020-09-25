@@ -40,3 +40,17 @@
     color: white;
     font-weight: 500;
 }
+#googleIcon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.google-button{
+    background-color: #FFC107;
+    color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}

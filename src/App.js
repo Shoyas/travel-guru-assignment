@@ -17,16 +17,30 @@ import Login from './components/Header/NavItems/Login/Login';
 import Booking from './components/Booking/Booking';
 import NotFound from './components/NotFound/NotFound';
 import Hotel from './components/Hotel/Hotel';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+
+
 
 
 export const TourContext = createContext();
+export const UserContext = createContext();
 
 function App() {
   const [place, setPlace] = useState(fakeData);
+  const [googleUser, setGoogleUser] = useState({
+      isSignedIn: false,
+      name: '',
+      email: '',
+      photo: '',
+      password: '',
+      error: '',
+      success: '',
+  });
   return (
     <div className="body body-color">
       
         <TourContext.Provider value={{place, setPlace}}>
+          <UserContext.Provider value= {[googleUser, setGoogleUser]}>
           <Router>
             <Header/>
             <Switch>
@@ -54,16 +68,17 @@ function App() {
               <Route path="/booking/:name && :description">
                 <Booking/>
               </Route>
-              <Route path="/hotel">
+              <PrivateRoute path="/hotel">
                 <Hotel/>
-              </Route>
+              </PrivateRoute>
               <Route path="*">
                 <NotFound/>
               </Route>
               
             </Switch>
         </Router>
-        </TourContext.Provider>
+        </UserContext.Provider>
+      </TourContext.Provider>
       
     </div>
   );

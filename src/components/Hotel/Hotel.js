@@ -5,7 +5,7 @@ import fakeDataHotel from '../fakeData/fakeDataHotel';
 import Map from '../Map/Map';
 
 const Hotel = () => {
-
+    
     const [hotel, setHotel] = useState(fakeDataHotel);
 
     return (

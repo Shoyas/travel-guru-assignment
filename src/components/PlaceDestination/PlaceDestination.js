@@ -9,14 +9,16 @@ const PlaceDestination = (props) => {
     const {description, name} = props.pl;
     //console.log(description);
 
-    
-
     return (
         <div className="description-area">
             <h1>{name}</h1>
             <p>{description}</p>
-
-            <Link className="nav-item" to={`/Booking/${name} && ${description}`}><Button className="button" variant="warning">Booking →</Button></Link>
+            <Button className="button" variant="warning">
+                <Link className="nav-item" id="nav-item-button"
+                    to={`/Booking/${name} && ${description}`}>
+                    Booking →
+                </Link>
+            </Button>
             
         </div>
     );

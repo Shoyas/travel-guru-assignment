@@ -1,3 +1,11 @@
 [0920/172937.459:ERROR:settings.cc(320)] Settings magic is not 1129342067
 [0921/175547.288:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
 [0921/175547.382:ERROR:exception_snapshot_win.cc(99)] thread ID 8272 not found in process
+[0922/144325.503:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0922/144325.550:ERROR:exception_snapshot_win.cc(99)] thread ID 5268 not found in process
+[0922/144325.550:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0922/144325.550:ERROR:exception_snapshot_win.cc(99)] thread ID 62248 not found in process
+[0923/032731.584:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0923/032731.693:ERROR:exception_snapshot_win.cc(99)] thread ID 127700 not found in process
+[0924/145737.308:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0924/145737.480:ERROR:exception_snapshot_win.cc(99)] thread ID 123924 not found in process
